@@ -1,8 +1,8 @@
 def bubble_sort array
-  bubble_sort_by(array){|left, right| left - right}
+  bubble_sort_by(array){ |left, right| left - right }
 end
 
-def bubble_sort_by array, &block
+def bubble_sort_by(array, &block)
   puts array.join(' ')
   swapped = nil
   until swapped == false do
